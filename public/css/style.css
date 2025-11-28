@@ -1,0 +1,50 @@
+/* Estilos base - prototipo inicial */
+:root{
+  --bg:#ffffff;
+  --fg:#222222;
+  --muted:#6b6b6b;
+  --accent:#e09b12; /* ocre / amarillo */
+  --accent-2:#f2994a; /* naranja */
+  --container:1100px;
+}
+[data-theme="dark"]{
+  --bg:#0b0b0c;
+  --fg:#eaeaea;
+  --muted:#a0a0a0;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:var(--bg);
+  color:var(--fg);
+  -webkit-font-smoothing:antialiased;
+}
+.container{max-width:var(--container);margin:0 auto;padding:1rem}
+.site-header{border-bottom:1px solid rgba(0,0,0,0.06);}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:0.75rem 0}
+.nav a{margin:0 0.5rem;color:var(--muted);text-decoration:none}
+.btn{border:1px solid transparent;padding:0.5rem 0.75rem;border-radius:6px;cursor:pointer;background:transparent}
+.btn.small{padding:0.25rem 0.5rem;font-size:0.9rem}
+.btn.primary{background:var(--accent);color:#fff;border-color:transparent}
+.btn.whatsapp{background:#25D366;color:#fff}
+.hero{padding:2.5rem 0}
+.hero-inner{display:flex;gap:1.5rem;align-items:center}
+.hero-media img{max-width:420px;width:100%;border-radius:8px;display:block}
+.hero-content h1{margin:0 0 0.5rem;font-size:1.8rem}
+.hero-ctas{margin-top:1rem}
+.section{padding:2rem 0}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:0.75rem}
+.thumb{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;padding:2.25rem;border-radius:8px;display:flex;align-items:center;justify-content:center}
+.contact-form{max-width:560px;display:grid;gap:0.75rem}
+.contact-form input,.contact-form textarea{width:100%;padding:0.5rem;border-radius:6px;border:1px solid #ddd}
+.map-placeholder{margin-top:1rem;padding:1rem;border-radius:6px;background:#f4f4f4;color:var(--muted)}
+.site-footer{border-top:1px solid rgba(0,0,0,0.06);padding:1rem 0;margin-top:2rem}
+.footer-inner{display:flex;justify-content:space-between;align-items:center}
+@media (max-width:900px){
+  .hero-inner{flex-direction:column}
+  .footer-inner{flex-direction:column;gap:0.5rem}
+}
+/* pequeños detalles para accesibilidad */
+:focus{outline:3px solid color-mix(in srgb, var(--accent) 30%, transparent)}

@@ -1,0 +1,12 @@
+# Archivos y carpetas a ignorar en Vercel
+node_modules
+.next
+.env*.local
+.env
+*.log
+.DS_Store
+.vscode
+.idea
+coverage
+netlify.toml
+README_NETLIFY.md

@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Note:
+# - The Netlify Next.js plugin will detect routes, create functions and set the right publish output.
+# - You can add environment-specific settings or redirects here if needed.
