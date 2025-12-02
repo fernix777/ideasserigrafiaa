@@ -41,10 +41,7 @@ const nextConfig = {
     },
 
     // Configuración de React
-    reactStrictMode: true,
-
-    // Optimización de producción
-    swcMinify: true,
+    reactStrictMode: true
 };
 
 export default nextConfig;
