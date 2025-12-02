@@ -11,8 +11,8 @@ export default function GalleryItem({ project, index, onOpenModal }) {
       {/* Imagen con efecto hover */}
       <div className="relative aspect-[4/5] w-full overflow-hidden bg-gradient-to-br from-ideas-primary/15 via-transparent to-ideas-secondary/20">
         <Image
-          src={project.image}
-          alt={project.title}
+          src={project?.image || '/assets/images/WhatsApp%20Image%202024-11-08%20at%2018.04.15.jpeg'}
+          alt={project?.title || 'Proyecto'}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"
           loading="lazy"

@@ -24,7 +24,9 @@ export default function ImageModal({ isOpen, project, imageIndex, onClose, onNex
 
   if (!isOpen || !project) return null
 
-  const currentImage = project.images[imageIndex]
+  const currentImage = project.images?.[imageIndex]
+
+  if (!currentImage) return null
 
   return (
     <div
