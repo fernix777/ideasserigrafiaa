@@ -2,7 +2,7 @@
 // Este script se ejecuta ANTES de que React se hidrate
 export const themeScript = `
 (function() {
-  const STORAGE_KEY = 'site-theme';
+  const STORAGE_KEY = 'site-theme-v2';
   
   function getInitialTheme() {
     const stored = localStorage.getItem(STORAGE_KEY);

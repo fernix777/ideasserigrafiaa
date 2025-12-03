@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from 'react'
 
-const STORAGE_KEY = 'site-theme'
+const STORAGE_KEY = 'site-theme-v2'
 const listeners = new Set()
 let currentTheme
 let mediaQuery
