@@ -1,6 +1,6 @@
 import Hero from '../components/Hero'
 import AboutSection from '../components/AboutSection'
-import GallerySection from '../components/GallerySection'
+import PhotoGallery from '../components/PhotoGallery'
 import ContactSection from '../components/ContactSection'
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
         <div className="mx-auto w-full max-w-6xl px-4">
             <Hero />
             <AboutSection />
-            <GallerySection />
+            <PhotoGallery />
             <ContactSection />
         </div>
     )

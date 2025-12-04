@@ -70,27 +70,62 @@ export const galleryContent = {
   title: 'Trabajos',
   highlight:
     'Seleccionamos algunos proyectos recientes que muestran la variedad de técnicas, materiales y estilos que ofrecemos.',
+  categories: ['Todos', 'Cartelería', 'Plotter', 'Dulcería', 'Branding', 'Varios'],
   items: [
-    {
-      title: 'Rebranding para cafetería',
-      description: 'Serigrafía en remeras y tote bags con tintas al agua.',
-      image: '/assets/images/WhatsApp%20Image%202024-11-08%20at%2018.04.15.jpeg'
-    },
-    {
-      title: 'Merchandising para eventos',
-      description: 'Gorras y buzos personalizados para festivales regionales.',
-      image: '/assets/images/WhatsApp%20Image%202024-11-08%20at%2018.04.17.jpeg'
-    },
-    {
-      title: 'Indumentaria corporativa',
-      description: 'Uniformes para empresas con estampas resistentes al uso diario.',
-      image: '/assets/images/WhatsApp%20Image%202024-11-08%20at%2018.04.18.jpeg'
-    },
-    {
-      title: 'Producciones artísticas',
-      description: 'Series limitadas impresas sobre textiles premium.',
-      image: '/assets/images/WhatsApp%20Image%202024-11-08%20at%2018.04.19.jpeg'
-    }
+    // Cartelería
+    { title: 'Cartel Carne de Cerdo', category: 'Cartelería', image: '/assets/images/carne-cerdo-cartel.jpg' },
+    { title: 'Carnicería La Familia', category: 'Cartelería', image: '/assets/images/carniceria-laflia.jpg' },
+    { title: 'Cartel Empanadas', category: 'Cartelería', image: '/assets/images/cartel empanadas.jpg' },
+    { title: 'Hamburguesería', category: 'Cartelería', image: '/assets/images/cartelhamburgueseria.jpg' },
+    { title: 'Despensa', category: 'Cartelería', image: '/assets/images/despensa.jpg' },
+    { title: 'Ferretería', category: 'Cartelería', image: '/assets/images/ferreteria.jpg' },
+    { title: 'Mercería', category: 'Cartelería', image: '/assets/images/merceria.jpg' },
+    { title: 'Pollería', category: 'Cartelería', image: '/assets/images/polleria1.jpg' },
+    { title: 'Vinoteca', category: 'Cartelería', image: '/assets/images/vinoteca.jpg' },
+
+    // Plotter
+    { title: 'Plotter Auto 1', category: 'Plotter', image: '/assets/images/auto_plotter2.jpg' },
+    { title: 'Plotter Auto 2', category: 'Plotter', image: '/assets/images/auto_plotter3.jpg' },
+    { title: 'Plotter Auto 3', category: 'Plotter', image: '/assets/images/plotter_auto.jpg' },
+
+    // Dulcería
+    { title: 'Dulcería 1', category: 'Dulcería', image: '/assets/images/dulce1.jpg' },
+    { title: 'Dulcería 2', category: 'Dulcería', image: '/assets/images/dulce2.jpg' },
+    { title: 'Dulcería 3', category: 'Dulcería', image: '/assets/images/dulce3.jpg' },
+    { title: 'Dulcería 4', category: 'Dulcería', image: '/assets/images/dulce4.jpg' },
+
+    // Branding
+    { title: 'Barbería Zeus', category: 'Branding', image: '/assets/images/barberia_zeus.jpg' },
+    { title: 'Casa Bianca', category: 'Branding', image: '/assets/images/casa-bianca.jpg' },
+    { title: 'Constanza', category: 'Branding', image: '/assets/images/constanza.jpg' },
+    { title: 'Cuervos', category: 'Branding', image: '/assets/images/cuervos.jpg' },
+    { title: 'Evolución', category: 'Branding', image: '/assets/images/evolucion.jpg' },
+    { title: 'Filomena', category: 'Branding', image: '/assets/images/filomena.jpg' },
+    { title: 'Línea Tecnología', category: 'Branding', image: '/assets/images/linea_tecnologia.jpg' },
+    { title: 'Logo Redefinido', category: 'Branding', image: '/assets/images/logo-redefinido.png' },
+    { title: 'Peluquería', category: 'Branding', image: '/assets/images/peluqueria.jpg' },
+    { title: 'Pololo Llantas', category: 'Branding', image: '/assets/images/pololo_llantas.jpg' },
+    { title: 'Salón Lucía', category: 'Branding', image: '/assets/images/salon_lucia.jpg' },
+    { title: 'Yuyi', category: 'Branding', image: '/assets/images/yuyi.jpg' },
+
+    // Varios (WhatsApp Images)
+    { title: 'Trabajo Reciente 1', category: 'Varios', image: '/assets/images/Imagen de WhatsApp 2025-10-28 a las 17.02.43_7e7ce9ff.jpg' },
+    { title: 'Trabajo Reciente 2', category: 'Varios', image: '/assets/images/Imagen de WhatsApp 2025-10-28 a las 17.02.43_943bf77b.jpg' },
+    { title: 'Trabajo Reciente 3', category: 'Varios', image: '/assets/images/Imagen de WhatsApp 2025-10-28 a las 17.03.17_d8651093.jpg' },
+    { title: 'Trabajo Reciente 4', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.04.15.jpeg' },
+    { title: 'Trabajo Reciente 5', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.04.17.jpeg' },
+    { title: 'Trabajo Reciente 6', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.04.18.jpeg' },
+    { title: 'Trabajo Reciente 7', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.04.19.jpeg' },
+    { title: 'Trabajo Reciente 8', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.04.22.jpeg' },
+    { title: 'Trabajo Reciente 9', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.04.23.jpeg' },
+    { title: 'Trabajo Reciente 10', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.04.36.jpeg' },
+    { title: 'Trabajo Reciente 11', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.04.38 (1).jpeg' },
+    { title: 'Trabajo Reciente 12', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.04.38.jpeg' },
+    { title: 'Trabajo Reciente 13', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.04.41 (1).jpeg' },
+    { title: 'Trabajo Reciente 14', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.04.41.jpeg' },
+    { title: 'Trabajo Reciente 15', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.04.42.jpeg' },
+    { title: 'Trabajo Reciente 16', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.04.43.jpeg' },
+    { title: 'Trabajo Reciente 17', category: 'Varios', image: '/assets/images/WhatsApp Image 2024-11-08 at 18.05.01.jpeg' }
   ]
 }
 
