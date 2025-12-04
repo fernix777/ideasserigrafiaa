@@ -1,5 +1,5 @@
 import React from 'react'
-import ThemeToggle from './ThemeToggle'
+
 import Logo from './Logo'
 import { navigation } from '../content/siteContent'
 
@@ -25,11 +25,9 @@ function Header() {
               {item.name}
             </a>
           ))}
-          <ThemeToggle />
+
         </nav>
-        <div className="md:hidden">
-          <ThemeToggle />
-        </div>
+
       </div>
     </header>
   )

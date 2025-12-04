@@ -25,7 +25,7 @@ const setTheme = (value) => {
 
 const getInitialTheme = () => {
   if (typeof window === 'undefined') {
-    return 'light'
+    return 'dark'
   }
 
   const stored = window.localStorage.getItem(STORAGE_KEY)
@@ -34,7 +34,7 @@ const getInitialTheme = () => {
   }
 
   mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
-  return mediaQuery.matches ? 'dark' : 'light'
+  return mediaQuery.matches ? 'dark' : 'dark'
 }
 
 export function initTheme() {
@@ -53,7 +53,7 @@ export function initTheme() {
 export function useTheme() {
   const [theme, setThemeState] = useState(() => {
     if (typeof window === 'undefined') {
-      return currentTheme ?? 'light'
+      return currentTheme ?? 'dark'
     }
     currentTheme = currentTheme ?? getInitialTheme()
     return currentTheme
